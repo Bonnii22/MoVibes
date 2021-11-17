@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageprofile"
+        android:layout_width="277dp"
+        android:layout_height="209dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile"/>
+
+
+    <EditText
+        android:id="@+id/txtestablishmentname"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="438dp"
+        android:hint="establishment name"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/txtaddress"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="380dp"
+        android:hint="adress (use commas in between)"
+        android:shadowColor="#F8B300"
+        android:textColorHighlight="#F8B300"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/txtownername"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="321dp"
+        android:hint="owner name"
+        android:shadowColor="#F8B300"
+        android:textColorHighlight="#F8B300"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/txtownersurname"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="264dp"
+        android:hint="owner surname"
+        android:shadowColor="#F8B300"
+        android:textColorHighlight="#F8B300"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/txtownercontactnumber"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="212dp"
+        android:hint="owner contact number"
+        android:shadowColor="#F8B300"
+        android:textColorHighlight="#F8B300"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        app:cornerRadius="100dp"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shape"
+        android:shadowColor="#F8B300"
+        android:text="UPDATE"
+        android:textColorHighlight="#F8B300"
+        android:textColorHint="@color/black"/>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/shape"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="500dp"
+        android:layout_marginBottom="16dp"
+        android:shadowColor="#F8B300"
+        android:text="CANCEL"
+        android:textColorHighlight="#F8B300"
+        android:textColorHint="@color/black" />
+
+</RelativeLayout>

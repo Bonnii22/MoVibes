@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="327dp"
+            android:layout_height="271dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="559dp"
+            android:src="@mipmap/logo" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/txtEmailUsername"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black">
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="@string/txtPassword"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            >
+        </EditText>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:text="@string/btnRegister"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:text="Cancel"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+</RelativeLayout>

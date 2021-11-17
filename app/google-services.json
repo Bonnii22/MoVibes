@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1096832463734",
+    "project_id": "movibes-dfab4",
+    "storage_bucket": "movibes-dfab4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096832463734:android:56420c6b94f969c4f7c057",
+        "android_client_info": {
+          "package_name": "com.example.movibes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096832463734-s7acsojk3j3nu2ecjg4gcj211jd74t5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHimZ-oAcXFD9tbmG440KAlBuQU-HZASM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096832463734-s7acsojk3j3nu2ecjg4gcj211jd74t5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

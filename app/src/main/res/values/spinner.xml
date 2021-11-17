@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner">
+        <item>category</item>
+        <item>day events</item>
+        <item>parties</item>
+        <item>bashes</item>
+    </string-array>
+</resources>

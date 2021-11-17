@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="profilepic" />
+    <item type="id" name="shares" />
+    <item type="id" name="vibes" />
+    <item type="id" name="reviews" />
+
+</resources>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginRight="-4dp"
+        android:text="New Event"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/imgCaptured"
+        android:layout_width="334dp"
+        android:layout_height="191dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:src="@drawable/img"/>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="412dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:hint="event description"
+        android:textColorHint="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="101dp"
+            android:layout_height="32dp"
+            android:text="venue: "
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <RadioGroup
+            android:id="@+id/venue"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioextisting"
+                android:layout_width="107dp"
+                android:layout_height="match_parent"
+                android:text="@string/radio_existing"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/radionew"
+                android:layout_width="104dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:checked="true"
+                android:text="@string/radio_new"
+                android:textColor="@color/black" />
+
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="342dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:spinnerMode="dropdown"
+        android:background="@color/white"
+        android:layout_marginTop="400dp">
+
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/lineup"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="460dp"
+        android:hint="line-up"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/fee"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="500dp"
+        android:hint="entrance fee"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="550dp"
+        android:hint="dd/mm/yyyy"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="600dp"
+        android:hint="time: 00:00 till 00:00"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/btnADD"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/shape"
+        android:text="ADD"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/shape"
+        android:text="CANCEL"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>
+

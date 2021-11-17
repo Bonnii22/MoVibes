@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+    android:layout_columnSpan="5"
+        android:layout_height="350dp">
+
+    <ImageView
+        android:id="@+id/profilepic"
+        android:layout_width="75dp"
+        android:layout_height="58dp"
+        android:layout_rowSpan="2"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/establishmentname"
+        android:layout_width="214dp"
+        android:layout_height="35dp"
+        android:layout_row="0"
+        android:layout_column="1" />
+
+
+    <ImageView
+        android:id="@+id/imgposter"
+        android:layout_width="315dp"
+        android:layout_height="194dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        app:srcCompat="@drawable/img" />
+
+    <ImageView
+        android:id="@+id/vibes"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:src="@drawable/vibes" />
+
+
+    <ImageView
+        android:id="@+id/reviews"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_row="2"
+        android:layout_gravity="center_horizontal"
+        android:layout_column="1"
+        android:src="@drawable/reviews" />
+
+    <ImageView
+        android:id="@+id/shares"
+        android:layout_width="65dp"
+        android:layout_height="61dp"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:src="@drawable/shares" />
+
+
+
+
+</GridLayout>

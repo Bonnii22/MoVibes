@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MoVibes</string>
+
+
+        <string name="btnLogin"> Login </string>
+        <string name="txtPassword"> Password </string>
+        <string name="btnRegister"> Register </string>
+        <string name="txtSignUp" > Sign Up </string>
+        <string name="txtTitle" > Upload a Poster </string>
+        <string name="btnUpload" > Add a Poster </string>
+        <string name="btnViewPoster" > View Posters </string>
+        <string name="txtFooter" > MoVibes, Since 2021 </string>
+        <string name="txtEmailUsername"> Username / Email</string>
+        <string name="back_to_login">back_to_login</string>
+        <string name="btnUploads" > Add a Poster </string>
+        <string name="txtListLable" > List Of Events </string>
+        <string name="username_email">Username / Email</string>
+        <string name="radio_existing">existing</string>
+        <string name="radio_new">new </string>
+</resources>

@@ -1,0 +1,174 @@
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        tools:context=".LoginActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="-6dp"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="525dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:gravity="center"
+            android:text="..................................or use..............................."
+            android:textColor="@color/black" />
+
+
+        <ImageView
+            android:id="@+id/imgFacebook"
+            android:layout_width="82dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="584dp"
+            android:src="@mipmap/facebook"
+            android:tag="http://facebook.com" />
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="69dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="181dp"
+            android:layout_marginLeft="181dp"
+            android:layout_marginTop="573dp"
+            android:src="@mipmap/gmail"
+            android:id="@+id/imgGmail"
+            android:tag="http://google.com"
+            />
+
+        <ImageView
+            android:layout_width="58dp"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="325dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="590dp"
+            android:id="@+id/imgInstagram"
+            android:tag="http://instagram.com"
+            android:src="@mipmap/instagram" />
+
+
+        <TextView
+            android:id="@+id/txtForgotPassword"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="269dp"
+            android:layout_marginLeft="269dp"
+            android:layout_marginTop="446dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="Forgot Password?"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="3dp"
+            android:src="@mipmap/logo" />
+
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="218dp"
+            android:gravity="center"
+            android:hint="@string/username_email"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="328dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-7dp"
+            android:layout_marginLeft="-7dp"
+            android:layout_marginTop="277dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:hint="@string/txtPassword"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="435dp">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/txtSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="442dp"
+            android:autoLink="web"
+            android:linksClickable="true"
+            android:text="@string/txtSignUp"
+            android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/shape"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="352dp"
+                android:text="@string/btnLogin"
+                android:textColor="@color/white"
+                tools:layout_editor_absoluteX="143dp"
+                tools:layout_editor_absoluteY="546dp" />
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
